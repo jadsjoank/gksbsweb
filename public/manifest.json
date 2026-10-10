@@ -1,0 +1,42 @@
+{
+  "name": "GKSBS Tanjung Karang",
+  "short_name": "GKSBS",
+  "description": "Website resmi GKSBS Tanjung Karang untuk jadwal ibadah, warta gereja, dan pelayanan jemaat.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f6f0e7",
+  "theme_color": "#2a2119",
+  "orientation": "portrait",
+  "lang": "id",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Jadwal Ibadah",
+      "short_name": "Event",
+      "description": "Lihat jadwal ibadah dan kegiatan gereja.",
+      "url": "/events",
+      "icons": [{ "src": "/logo.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Warta Gereja",
+      "short_name": "Warta",
+      "description": "Baca berita dan warta gereja terbaru.",
+      "url": "/warta-gereja",
+      "icons": [{ "src": "/logo.png", "sizes": "192x192", "type": "image/png" }]
+    }
+  ]
+}

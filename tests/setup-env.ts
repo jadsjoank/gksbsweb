@@ -1,0 +1,12 @@
+process.env.NEXT_PUBLIC_SUPABASE_URL ??= "https://test.supabase.co";
+process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY ??= "test-anon-key";
+process.env.SUPABASE_URL ??= "https://test.supabase.co";
+process.env.SUPABASE_SERVICE_ROLE_KEY ??= "test-service-role-key";
+process.env.SMTP_HOST ??= "test-smtp.local";
+process.env.SMTP_PORT ??= "587";
+process.env.SMTP_USER ??= "test-user";
+process.env.SMTP_PASS ??= "test-pass";
+process.env.SMTP_FROM ??= "GKSBS <test@example.com>";
+process.env.ADMIN_MFA_SECRET ??= "test-admin-mfa-secret-32-characters-long";
+process.env.OTP_PEPPER ??= "test-otp-pepper-secret-32-characters";
+process.env.ATTENDANCE_QR_SECRET ??= "test-attendance-qr-secret-32-chars";
