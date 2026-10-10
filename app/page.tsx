@@ -97,7 +97,7 @@ export default async function HomePage() {
           <div className="flex items-end justify-between mb-12">
             <div>
               <p className="label-caps mb-3">Kegiatan Mendatang</p>
-              <h2 className="text-h1 tracking-tighter">Event Gereja GKSBS<br />Tanjungkarang</h2>
+              <h2 className="text-h1 tracking-tighter">Event GKSBS<br />Tanjungkarang</h2>
             </div>
             <Link href="/events" className="label-caps text-on-surface-muted hover:text-black border-b border-current pb-0.5 transition-colors">
               View all →
